@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  min-width: 80%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 0 12px;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.img {
+  width: 58px;
+  height: 58px;
+  padding: 8px;
+}
+
+.input {
+  flex-basis: 100%;
+  height: 50px;
+  padding: 0 12px;
+  flex-basis: 100%;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  background: #444;
+}
+
+.button svg {
+  color: #eee;
+  font-size: 20px;
+}

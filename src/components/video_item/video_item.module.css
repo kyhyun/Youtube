@@ -1,0 +1,48 @@
+.container {
+  padding: 0.2em;
+}
+
+.container.grid {
+  width: 50%;
+}
+
+.container.list {
+  width: 100%;
+}
+
+.video {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 5px 0 rgba(191, 191, 191, 0.53);
+  transition: transform 250ms ease-in;
+}
+
+.video:hover {
+  transform: scale(1.02);
+}
+
+.thumbnails {
+  width: 40%;
+  height: 120px;
+  border-right: 1px solid lightgray;
+}
+
+.metadata {
+  width: 250px;
+  margin-left: 8px;
+}
+
+.metadata > dt {
+  margin: 0;
+  text-align: left;
+  color: #111;
+  font-size: 0.8rem;
+}
+
+.metadata > dd {
+  margin: 0;
+  color: #666;
+  font-size: 0.6rem;
+}
