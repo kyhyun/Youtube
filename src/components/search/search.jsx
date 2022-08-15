@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useRef, memo } from 'react';
 import styles from './search.module.css';
 import { youtubeIcon } from '../../assets/images/';
 import { IoSearchOutline } from 'react-icons/io5';
 
-const Search = ({ onSearch }) => {
+const Search = memo(({ onSearch }) => {
   const inputRef = useRef();
 
   // 역할을 수행하는 함수가 2개 이상이 되는 경우 하나로 합치는 리팩토링이 필요함
@@ -34,6 +34,8 @@ const Search = ({ onSearch }) => {
       </button>
     </header>
   );
-};
+});
+
+Search.displayName = 'Search';
 
 export default Search;

@@ -27,5 +27,5 @@ const VideoItem = memo(
     );
   }
 );
-
+VideoItem.displayName = 'VideoItem';
 export default VideoItem;
